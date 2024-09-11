@@ -218,14 +218,13 @@ def main():
         os.system("clear")
         time.sleep(0.5)
         print("\033[1;93mCherrs! You survive from the dangerous forest and find a shiny treasure!")
-        time.sleep(1)
+        time.sleep(2)
     elif n == 2:
         quiz()
     else:
         exit("\033[1;93mThanks for playing! Hope to see you next time!\n")
 
 vision = random.randint(1,2)
-vision = 2
 if vision == 1:
     GuessFruit()
     tiger()
@@ -233,7 +232,7 @@ if vision == 1:
     os.system("clear")
     time.sleep(0.5)
     print("\033[1;93mCherrs! You survive from the dangerous forest and find a shiny treasure!")
-    time.sleep(1)
+    time.sleep(2)
 elif vision == 2:
     quiz()
 
